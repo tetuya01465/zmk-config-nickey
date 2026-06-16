@@ -71,8 +71,8 @@ layers:
   - )
   - '~'
   - {t: ▽, type: trans}
-  - F6
-  - F7
+  - Sft+Ctl+4
+  - Sft+Ctl+5
   - '`'
   - '-'
   - '='
