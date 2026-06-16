@@ -1,72 +1,114 @@
 layout: {zmk_keyboard: nickey}
 layers:
-  default: [TAB, Q, W, E, R, T, Y, U, I, O, P, '''', LCTRL, A, S, D, F, G, H, J, K, L, ;, '-', LSHFT, Z, X, C, V, B, LEFT WIN, DELETE, N, M, ',', ., /, '=', '2',
-    '1', SPACE, BSPC, RET, RALT]
-  '1':
+  default:
+  - TAB
+  - Q
+  - L
+  - U
+  - ','
+  - .
+  - F
+  - W
+  - R
+  - Y
+  - P
+  - ''''
+  - LCMD
+  - E
+  - I
+  - A
+  - O
+  - '-'
+  - K
+  - T
+  - N
+  - S
+  - H
+  - '-'
   - ESCAPE
+  - Z
+  - X
+  - C
+  - V
+  - ;
+  - LEFT SHIFT
+  - RIGHT SHIFT
+  - G
+  - D
+  - M
+  - J
+  - B
+  - /
+  - {t: LEFT ALT, h: '2'}
+  - LCTRL
+  - '1'
+  - ENTER
+  - SPACE
+  - BACKSPACE
+  '1':
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - '4'
   - '5'
+  - ''
+  - PG UP
+  - UP ARROW
+  - PG DN
+  - (
+  - '`'
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - '`'
-  - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - LEFT
+  - HOME
   - DOWN
-  - UP
+  - DOWN ARROW
   - RIGHT
-  - {t: ▽, type: trans}
+  - )
   - '~'
   - {t: ▽, type: trans}
   - F6
   - F7
-  - F8
-  - F9
-  - F10
-  - '3'
+  - '`'
+  - '-'
+  - '='
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - END
   - '['
-  - (
-  - )
   - ']'
+  - ''
+  - \
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '2':
+  - BT CLR ALL
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_UP'
+  - {t: BT, h: '2'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '@'
-  - '#'
-  - $
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
+  - '&studio_unlock'
+  - ''
+  - ''
+  - '&mkp RCLK'
+  - '&mkp LCLK'
+  - {t: BT, h: '1'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,13 +116,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '*'
-  - ^
+  - ''
+  - ''
+  - ''
+  - '&msc SCRL_DOWN'
+  - {t: BT, h: '0'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -123,7 +166,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,7 +174,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
